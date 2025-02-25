@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, hsl(198, 44%, 11%), #203a43, #2c5364);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+.logo{
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.nav-links li a i{
+    margin-right: 3px;
+    color:deepskyblue;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.buttons .sign-in{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.buttons .sign-up{
+    border: 1px solid #ffffff;
+    padding: 7px;
+    color: white;
+    text-decoration: none;    
+}
+.image{
+    display: flex;
+}
+.card{
+    height: 70vh;
+    width: 32%;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    background-color: white;
+    border-radius: 5px;
+    background-image: linear-gradient( 109.6deg,  rgba(255,249,35,1) 11.5%, rgba(243,161,0,1) 91.1% );
+}
+.card h1{
+    text-align: center;
+}
+.card .email{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+h1{
+    margin-top: 10px;
+}
+button{
+    border: none;
+    padding: 10px;
+    width: 35%;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.facebook{
+    background-color: #0f2027;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.google{
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.details{
+    align-items: center;
+}
+.email{
+    margin-left: 15%;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+#email{
+    margin-left: 15%;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    width: 70%;
+}
+.pass{
+    margin-left: 15%;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+#password{
+    margin-left: 15%;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    width: 70%;
+}
+.login{
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+    background-color: #0f2027;
+    color: white;
+}
+
+
+.footer{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+
+

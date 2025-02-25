@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+ body{
+    background-image: url(../Image/pexels-pixabay-355887.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+h2{
+    color:deepskyblue;
+}
+h2 i{
+    margin-right: 5px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav-links li a i{
+    margin-right: 5px;
+}
+.content{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.content h2{
+    font-size: 70px;
+    color: white;
+}
+.web{
+    font-size: 50px;
+    color:limegreen;
+}
+.content .course{
+    font-size:50px;
+    color: limegreen;
+}
+.matter{
+    color: white;
+    font-size: x-large;
+}
+.btn {
+    padding: 10px;
+    margin-top:25px;
+    margin-left: 3%;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    cursor: pointer;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.video{
+   position: absolute;
+   top: 15%;
+   right: 3%;  
+}
+h3{
+    font-size: x-large;
+}
+
+

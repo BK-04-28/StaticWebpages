@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(37, 37, 37);
+    height: 18vh;
+}
+.logo{
+    margin-left: 5%;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 3em;
+    margin-left: 30%;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+.search-box{
+    margin-right: 6%;
+    width: 17%;
+    border: none;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 25px;
+    padding: 7px;
+    background: rgb(37, 37, 37);
+}
+::placeholder{
+    color: rgb(152, 146, 146);
+    padding-left: 10px;
+}
+.search-btn{
+    background-color: yellow;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    right: 77px;
+}
+.search-btn i{
+    font-size: 15px;
+    align-items: center;
+}
+.content{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 3em;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+}
+.content p{
+    color: rgb(197, 203, 203);
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;   
+    margin-top: 6%;  
+    margin-right: 5%;
+}
+.image{
+    margin-left: 20px;
+}
+.image img{
+    width: 160px;
+    height: 220px;
+}
+.date{
+    background-color:rgb(37, 37, 37);
+    color: yellow;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
