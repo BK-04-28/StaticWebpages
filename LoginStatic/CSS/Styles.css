@@ -11,6 +11,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 15px 10%;
+    background-color: #0f2027;
+    height: 5%;
 }
 .logo{
     color: white;
